@@ -1,18 +1,3 @@
-/* .animated-background {
-  background-position: 0% center;
-  background-size: 200% auto;
-  background: linear-gradient(45deg, #FF0080 40%, #7928CA 100%);
-  background-clip: "text";
-  opacity: 1;
-  animation: gradient 2s infinite;
-}
-
-@keyframes gradient {
-  to {
-    opacity: 0;
-  }
-} */
-
 .animated-background {
   background: linear-gradient(45deg, #FF0080 20%, #7928CA 80%);
   background-size: 200% auto;

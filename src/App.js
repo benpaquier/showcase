@@ -127,22 +127,19 @@ function App() {
     }
   }, [colorMode, toggleColorMode])
 
-  const handleClick = (e) => {
-    console.log(e)
-  }
-
   return (
-    <Container maxW="container.md" color="#4A5568" onClick={handleClick}>
+    <Container maxW="container.md" color="#4A5568">
       <Flex minH="100vh" w="100%" direction="column-reverse" justifyContent="space-around">
-        <Grid templateColumns="repeat(3, 1fr)" gap={6}>
+        <Grid templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(2, 1fr)", lg: "repeat(3, 1fr)" }} gap={6}>
           {boxes.map(box => (
             <Box
               key={box.game}
-              w="100%"
+              w={{sm: "300px", md: "100%"}}
               style={{
                 borderImage: "linear-gradient(45deg, #7928CA, #FF0080) 1",
                 borderWidth: "2px",
-                borderRadius: '6px'
+                borderRadius: '6px',
+                margin: "0 auto"
               }}
               padding="4"
             > 
@@ -202,6 +199,8 @@ function App() {
             size="4xl"
             bgClip="text"
             className="animated-background"
+            marginTop={{ sm: "50px", lg: "0px" }}
+            marginBottom={{ sm: "50px", lg: "0px" }}
           >
             Showcase.
           </Heading>
