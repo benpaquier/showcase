@@ -129,7 +129,7 @@ function App() {
 
   return (
     <Container maxW="container.md" color="#4A5568">
-      <Flex minH="100vh" w="100%" direction="column-reverse" justifyContent="space-around">
+      <Flex minH="100vh" w="100%" direction="column-reverse" justifyContent="space-around" marginBottom={{ base: "50px", sm: "50px", lg: "0px"}}>
         <Grid templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(2, 1fr)", lg: "repeat(3, 1fr)" }} gap={6}>
           {boxes.map(box => (
             <Box
