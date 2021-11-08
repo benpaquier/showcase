@@ -134,7 +134,7 @@ function App() {
           {boxes.map(box => (
             <Box
               key={box.game}
-              w={{sm: "300px", md: "100%"}}
+              w={{ base: "90%", sm: "300px", md: "100%"}}
               style={{
                 borderImage: "linear-gradient(45deg, #7928CA, #FF0080) 1",
                 borderWidth: "2px",
@@ -199,8 +199,8 @@ function App() {
             size="4xl"
             bgClip="text"
             className="animated-background"
-            marginTop={{ sm: "50px", lg: "0px" }}
-            marginBottom={{ sm: "50px", lg: "0px" }}
+            marginTop={{ base: "50px", sm: "50px", lg: "0px" }}
+            marginBottom={{ base: "50px", sm: "50px", lg: "0px" }}
           >
             Showcase.
           </Heading>
