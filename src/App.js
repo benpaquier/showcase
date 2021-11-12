@@ -80,7 +80,7 @@ const boxes = [
     game: "Puissance 4",
     figma: "https://www.figma.com/file/m7G2qk3TPC078teDRQdaGy/Game-Project?node-id=0%3A1",
     github: "https://github.com/vincennt/game-react",
-    netlify: "https://nifty-banach-9d265a.netlify.app/",
+    netlify: "https://quirky-euclid-d24af1.netlify.app/",
     people: [
       {
         name: "Vincent"
