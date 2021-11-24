@@ -93,7 +93,7 @@ const boxes = [
   {
     figma: "https://www.figma.com/file/cpVI2Zb0WmzFT80dPTHef7/Untitled?node-id=0%3A1",
     github: "",
-    netlify: "",
+    netlify: "https://trippyajk.netlify.app",
     trello: "https://trello.com/b/iW3F5OXs/trippy",
     people: [
       {
